@@ -1,0 +1,4 @@
+This project contains:
+-HTML, This is a center of app, here is where we call it all files JS
+-JS, This is file for settings
+-CSS, This is a files for styles
