@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:khaki;
+}
+
+/*Nav-Bar*/
+header {
+	box-sizing: border-box;
+	background-color:aliceblue;
+	width:100%;
+	position:fixed;
+	z-index:100;
+	color:maroon;
+	font-size: 24px;
+
+}
+
+header h2{
+	display:inline;
+	margin:10px;
+	float:left;
+}
+
+header nav {
+	overflow: hidden;
+}
+
+nav ul {
+	float:right;
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+nav ul li a {
+	display:inline-block;
+	text-decoration:none;
+	font-size:18px;
+	color:maroon;
+	padding:20px;
+}
+
+nav ul li:hover {
+	background-color:gold;
+	color:skyblue;
+}
+
+article {
+	position:relative;
+	top:100px;
+}
+
+h1 {
+	margin:0 10px 0 10px;
+	font-family: sans-serif;
+	font-size: 28px;
+}
+
+p {
+	margin:15px;
+	font-family: sans-serif;
+
+}
